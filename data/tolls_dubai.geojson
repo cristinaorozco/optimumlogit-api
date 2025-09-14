@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "tolls_dubai",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [55.274376, 25.197525] },
+      "properties": {
+        "id": "salik_001",
+        "name": "Safa Gate",
+        "country": "AE",
+        "city": "Dubai",
+        "fee_aed": 4.0,
+        "active": true,
+        "hours": "00:00-23:59",
+        "notes": "Ejemplo; reemplazar por coordenadas reales si es necesario"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [55.200000, 25.090000] },
+      "properties": {
+        "id": "salik_002",
+        "name": "Barsha Gate",
+        "country": "AE",
+        "city": "Dubai",
+        "fee_aed": 4.0,
+        "active": true,
+        "hours": "00:00-23:59",
+        "notes": "Ejemplo; reemplazar por coordenadas reales si es necesario"
+      }
+    }
+  ]
+}
