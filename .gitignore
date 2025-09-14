@@ -1,0 +1,33 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+*.so
+
+# === Virtual envs ===
+.venv/
+venv/
+env/
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints/
+
+# === Data / Models (si son locales y no quieres exponerlos) ===
+*.db
+*.sqlite3
+*.joblib
+*.pkl
+
+# === Secrets ===
+.env
+*.env
+
+# === Streamlit cache ===
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/cache/
+
+# === VSCode ===
+.vscode/
